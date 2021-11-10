@@ -4,7 +4,7 @@ let simple = require('./lib/simple')
 let { MessageType } = require('@adiwajshing/baileys')
 let uploadImage = require('./lib/uploadImage')
 let getBuffer = require('./lib/functions.js')
-let AdiOfficial = 'https://i.ibb.co/8z7zqXv/IMG-20210618-WA0001.jpg'
+let AdiOfficial = 'https://i.ibb.co/vP8wmQV/9a15da247924f34dae6a0534d5cb76fc.jpg'
 
 const isNumber = x => typeof x === 'number' && !isNaN(x)
 const delay = ms => isNumber(ms) && new Promise(resolve => setTimeout(resolve, ms))
@@ -512,12 +512,12 @@ global.dfail = (type, m, conn) => {
     rowner: 'Perintah ini hanya dapat digunakan oleh _*OWNER*_!',
     owner: 'Perintah ini hanya dapat digunakan oleh _*Owner Bot*_!',
     mods: 'Perintah ini hanya dapat digunakan oleh _*Moderator*_ !',
-    premium: 'Perintah ini hanya untuk member _*Premium*_ !\nSilahkan Hubungi Owner Jika ingin ke _*PREMIUM*_',
+    premium: 'Perintah ini hanya untuk member _*Premium*_ !\nSilahkan chat owner Jika ingin ke _*PREMIUM*_ https://bit.ly/3qpScvw',
     group: 'Perintah ini hanya dapat digunakan di grup!',
     private: 'Perintah ini hanya dapat digunakan di Chat Pribadi!',
     admin: 'Perintah ini hanya untuk *Admin* grup!',
     botAdmin: 'Jadikan bot sebagai *Admin* untuk menggunakan perintah ini!',
-    unreg: '*「 BELUM TERDAFTAR 」* \nHalo Kak, Yuk Daftar Dulu Soalnya Anda Belum Terdaftar Dalam Database Bot\n\nKetik : #daftar nama|umur\nContoh : #daftar AdiOfficial|17'
+    unreg: '*「 BELUM TERDAFTAR 」* \nHalo Kak, Yuk Daftar Dulu Soalnya Anda Belum Terdaftar Dalam Database Bot\n\nKetik : #daftar nama|umur\nContoh : #daftar Ghilar|17'
   }[type]
   if (msg) return m.reply(msg)
 }
