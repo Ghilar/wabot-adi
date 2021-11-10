@@ -512,7 +512,7 @@ global.dfail = (type, m, conn) => {
     rowner: 'Perintah ini hanya dapat digunakan oleh _*OWNER*_!',
     owner: 'Perintah ini hanya dapat digunakan oleh _*Owner Bot*_!',
     mods: 'Perintah ini hanya dapat digunakan oleh _*Moderator*_ !',
-    premium: 'Perintah ini hanya untuk member _*Premium*_ !\nSilahkan chat 08995888005 Jika ingin ke _*PREMIUM*_',
+    premium: 'Perintah ini hanya untuk member _*Premium*_ !\nSilahkan chat owner Jika ingin ke _*PREMIUM*_',
     group: 'Perintah ini hanya dapat digunakan di grup!',
     private: 'Perintah ini hanya dapat digunakan di Chat Pribadi!',
     admin: 'Perintah ini hanya untuk *Admin* grup!',
