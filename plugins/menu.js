@@ -15,7 +15,7 @@ let { MessageType, mentionedJid } = require('@adiwajshing/baileys')
 
 let handler  = async (m, { conn, usedPrefix: _p, command }) => {
 let old = performance.now()
-await conn.fakeReply(m.chat, '*「 ⚠️ 」Loading...*', '0@s.whatsapp.net', '*Menampilkan List Menu*', 'status@broadcast')
+await conn.fakeReply(m.chat, '*Sabar Ngab...*', '0@s.whatsapp.net', '*Menampilkan List Menu*', 'status@broadcast')
 const chats = conn.chats.all()
 const groups = chats.filter(v => v.jid.endsWith('g.us'))
 const groupsIn = groups.filter(v => !v.read_only)
@@ -152,11 +152,11 @@ let pantek = 'https://i.ibb.co/8z7zqXv/IMG-20210618-WA0001.jpg'
 ├◪ *INFO*
 ││
 │├❒ *Owner Of This Bot*
-│├❒ _http://wa.me/6289504585790_
-│├❒ *Official WhatsApp Bot Groups*
-│├❒ *https://bit.ly/Grupgabutbotv1*
-│├❒ *Tap To Join our Telegram Group*
-│└❒ *https://t.me/gabutsquad44*
+│├❒ _http://wa.me/628995888005_
+│├❒ *Official WhatsApp group*
+│├❒ *https://bit.ly/3C1Smeq*
+│├❒ *Tap To subscribe yt owner*
+│└❒ *https://bit.ly/3ppLXXZ6*
 │
 └───────────────────────
 %readmore`
