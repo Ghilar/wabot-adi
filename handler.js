@@ -509,7 +509,7 @@ Terdeteksi @${m.participant.split`@`[0]} Telah Menghapus Pesan!
 
 global.dfail = (type, m, conn) => {
   let msg = {
-    rowner: 'Perintah ini hanya dapat digunakan oleh _*OWNER*_!',
+    owner: 'Perintah ini hanya dapat digunakan oleh _*OWNER*_!',
     owner: 'Perintah ini hanya dapat digunakan oleh _*Owner Bot*_!',
     mods: 'Perintah ini hanya dapat digunakan oleh _*Moderator*_ !',
     premium: 'Perintah ini hanya untuk member _*Premium*_ !\nSilahkan chat owner Jika ingin ke _*PREMIUM*_',
